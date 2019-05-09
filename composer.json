@@ -1,6 +1,6 @@
 {
     "name": "koolreport/codeigniter",
-    "version":"1.5.0",
+    "version":"1.6.0",
     "description": "Allow to use KoolReport seamlessly in CodeIgniter",
     "keywords": ["PHP","Reporting Tools","Data Report","laravel","KooLReport CodeIgniter","CodeIgniter Report","codeIgniter reporting","codeIgniter reporting tool"],
     "homepage": "https://www.koolreport.com",

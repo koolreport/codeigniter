@@ -1,6 +1,6 @@
 # Change Log
 
-# Version
+# Version 1.6.0
 
 1. Fix the CIDataSource mistaken break in line 90
 
