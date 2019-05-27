@@ -8,14 +8,15 @@ trait Friendship
 {
     public function __constructFriendship()
     {
-        
+
         //assets folder
         $assets = Utility::get($this->reportSettings,"assets");
         if($assets==null)
         {
-                
-            $asset_path = str_replace("\\","/",dirname($_SERVER["SCRIPT_FILENAME"])."/assets");
-            
+            $document_root = Utility::getDocumentRoot();
+            $script_folder = str_replace("\\","/",realpath(dirname($_SERVER["SCRIPT_FILENAME"])));
+            $asset_path = $script_folder."/assets";
+            $asset_url = Utility::str_replace_first($document_root,"",$script_folder)."/assets";
             if(!is_dir($asset_path."/koolreport_assets"))
             {
                 if(!is_dir($asset_path))
@@ -24,8 +25,10 @@ trait Friendship
                 }
                 mkdir($asset_path."/koolreport_assets",0755);
             }
+
+
             $assets = array(
-                "url"=>"assets/koolreport_assets",
+                "url"=>$asset_url."/koolreport_assets",
                 "path"=>$asset_path."/koolreport_assets",
             );
             $this->reportSettings["assets"] = $assets;
