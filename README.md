@@ -22,9 +22,23 @@ use \koolreport\codeigniter\Friendship;
 
 # Installation
 
-1. Download and unzip it
-2. Copy `codeigniter` folder into `koolreport\packages` folder
-3. All done, you are ready to create report in CodeIgniter PHP Framework.
+## By downloading .zip file
+
+1. [Download](https://www.koolreport.com/packages/codeigniter)
+2. Unzip the zip file
+3. Copy the folder `codeigniter` into `koolreport` folder so that look like below
+
+```bash
+koolreport
+├── core
+├── codeigniter
+```
+
+## By composer
+
+```
+composer require koolreport\codeigniter
+```
 
 # Documentation
 
