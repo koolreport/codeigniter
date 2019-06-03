@@ -1,6 +1,10 @@
 # Change Log
 
-# Version 1.6.0
+## Version 1.7.0
+
+1. Update the CIDataSource to work with latest version of KoolReport
+
+## Version 1.6.0
 
 1. Fix the CIDataSource mistaken break in line 90
 
