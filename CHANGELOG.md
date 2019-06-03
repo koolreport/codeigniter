@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.8.0
+
+1. Change README
+
 ## Version 1.7.0
 
 1. Update the CIDataSource to work with latest version of KoolReport
