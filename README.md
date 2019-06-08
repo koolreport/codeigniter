@@ -37,7 +37,7 @@ koolreport
 ## By composer
 
 ```
-composer require koolreport\codeigniter
+composer require koolreport/codeigniter
 ```
 
 # Documentation
